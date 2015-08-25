@@ -1,0 +1,39 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It could help programmers detect bug or possible one by camparing with the introduced bug also. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It could allow me to restore previous source code, for example, if a new version one have new bugs. Besides, I can restore old version code when old version users ask me fix their program.    
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Choosing when to create a commit:
+	Pros) You can crate a commit at the optimal timing. Then, there is no unnecessary history, so it is clear to read and manage your version control.
+	Cons) You can misjudge the timing of making commits. The efficency of version control is up to a programmer's capability.
+    Saving versions automatically:
+    	Pros) You do not need to care about saving time and can track almost every change history.
+	Cons) There are too many unnecessary versions, and you could have trouble with finding out what you want.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    The formers deal with a project which is consisted of related files or having dependencies each other. However, the laters treat targets which have a tendency to be independent each other.   
+
+How can you use the commands git log and git diff to view the history of files?
+
+    $git log
+    $git diff first_ID second_ID
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    It is possible to revert to the valid old version by using version control, so I do not have to be timid when changing the source codes. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to download an open source and try to extend it on my own.
