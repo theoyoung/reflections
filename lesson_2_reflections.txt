@@ -3,17 +3,27 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+	Working directory: It is a just local directory seperated section with the repo logically in your hard disk, and that area is former step to make a commit. However, That is not necessary step.
+	Repo: To put your project on it, you should make a commit. That area is just intermediate section before programmers do that.   
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+	Before making a commit, when you do not achieve one logical change yet, it is better to add changes to staging area as an intermediate step. 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	When I try to create other versions like paid and unpaid ones or exploring the codes without fear of lossing them or straying. 
 
 How do the diagrams help you visualize the branch structure?
+	It shows me the structure representing its branch using |/.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	Then, there is the only branch consisted of two ones. To understand that, it is better to represent them in the diagram because of their parents info.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+	Automation pros) You don't have to care about merging.
+	Automation cons) Logical flow of a project could be tangled.
+	Manually merging pros) You can distinguish whether that modification is needed.
+	Manually merging cons) It's laber-intensive than automation concept.
